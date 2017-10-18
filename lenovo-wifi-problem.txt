@@ -1,0 +1,38 @@
+For Ubuntu 16.04 users: Do not use the dkms or backports, you just need to install firmware and set the parameter using
+
+wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.158_all.deb
+sudo dpkg -i linux-firmware_1.158_all.deb
+
+Reboot
+
+For Ubuntu 14.04 and 15.10 you need backports and firmware
+
+
+wget https://www.kernel.org/pub/linux/kernel/projects/backports/stable/v4.4.2/backports-4.4.2-1.tar.gz
+sudo apt-get install build-essential linux-headers-generic
+tar -zxvf backports-4.4.2-1.tar.gz
+cd backports-4.4.2-1
+make defconfig-wifi
+make
+sudo make install
+
+Reboot and see if the firmware had issues with dmesg | egrep -i 'ath|firm
+
+Edit to add:Firmware Install
+
+
+wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.158_all.deb
+sudo dpkg -i linux-firmware_1.158_all.deb
+
+End of Firmware Install
+
+If you get a new kernel, your wireless will quit working until the new kernel contains the fix, if you notice wifi isn't working after a reboot
+
+cd backports-4.4.2-1
+make clean
+make defconfig-ath10k
+make
+sudo make install
+
+Reboot
+
