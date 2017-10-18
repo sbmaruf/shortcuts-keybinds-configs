@@ -1,4 +1,4 @@
-# Editing I
+Editing I
 ---------
 + ctrl+[SPACE] Complete code
 + shift+ctrl+/ Comment/uncomment code with block comments
@@ -9,7 +9,7 @@
 + ctrl+P Show parameters of the method call at caret
 + alt+ctrl+T Surround selected code fragment with if, while, try/catch or other construct
 
-# Editing II
+Editing II
 ----------
 + alt+ctrl+I Indent current line or selected block according to the code style settings
 + ctrl+C Copy to clipboard
@@ -21,7 +21,7 @@
 + alt+↵ Show Intention Actions
 + shift+TAB Unindent Selection
 
-# Editing III
+Editing III
 -----------
 + ctrl+Y Delete Line
 + ctrl+DEL Delete to Word End
@@ -35,7 +35,7 @@
 + alt+ctrl+↵ Start New Line Before Current
 + shift+ctrl+U Toggle Case
 
-# Running / Debugging
+Running / Debugging
 --------------------
 + shift+F10 Run
 + shift+F9 Debug
@@ -52,7 +52,7 @@
 + F8 Step to the next line in this file
 + shift+ctrl+F8 View and manage all breakpoints and watchpoints
 
-# Navigation I
+Navigation I
 ------------
 + ctrl+B Navigate to the declaration of the symbol at caret
 + ctrl+0 Go to Bookmark 0
@@ -71,7 +71,7 @@
 + alt+LEFT Activate previous tab
 + shift+alt+LEFT Select Previous Tab in multi-editor file
 
-# Navigation II
+Navigation II
 -------------
 + alt+ctrl+H Browse call hierarchy for the selected method
 + ctrl+5 Go to Bookmark 5
@@ -92,7 +92,7 @@
 + ctrl+F11 Toggle Bookmark With Mnemonic
 + ctrl+H Browse hierarchy for the selected class
 
-# Navigation III
+Navigation III
 --------------
 + ctrl+] Move Caret to Code Block End
 + shift+ctrl+] Move Caret to Code Block End with Selection
@@ -107,7 +107,7 @@
 + F7 Move to the Next Difference
 + shift+F7 Move to the previous difference
 
-# Refactoring
+Refactoring
 -----------
 + shift+F5 Create a copy of the selected class, file or directory in the same package/directory
 + alt+ctrl+C Replace selected expression with a constant
