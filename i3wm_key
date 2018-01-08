@@ -1,0 +1,19 @@
+1. mod + enter = terminal
+2. mod + left/right/up/down = move window
+3. mod + D == application
+4. mod + enter = tile
+5. mod + v = next window vertical
+6. mod + h = next widow horizontal
+7. mod + s = stacking mode
+9. mod + e = tiling mode
+10. mod + w = tab mode
+11. mod + R = resize mode
+12. mod + shift + arrow = move terminal
+13. mod + shift + Q = quit window
+14. mod + shift + #1 = move current window to #1 environment
+15. mod + #1 = go to workspace #1
+16. i3lock
+17. mod + shift + q = logout 
+18. xprop
+19. mod + m = move workspace to HDMI1  ---->
+20. mod + m = move workspace to origin  ---->
